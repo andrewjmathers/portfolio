@@ -1,0 +1,63 @@
+
+
+
+	*{
+
+
+		margin: 0;
+		padding: 0;
+	}
+
+
+	html, body, #Wrapper{
+
+
+		height: 100%;
+		width: 100%;
+	}
+
+
+	#Wrapper{
+
+
+		display: grid;
+		align-content: center;
+		justify-content: center;
+		transform: perspective(2000px);
+	}
+
+
+	#box{
+
+
+		height: 300px;
+		width: 300px;
+		transform: perspective(1500px) rotateY(40deg);
+
+
+		
+
+	}
+
+	#slide{
+
+
+		width: 100%;
+		height: 100%;
+		border: 4px solid black;
+		background-visibility: none;
+		transform-origin: 100% 50% 0px;
+		transform: perspective(2000px);
+	}
+
+
+	#before{
+
+		position: absolute;
+		width: 100px;
+		height: 100%;
+		border: 4px solid black;
+		transform-origin: 100% 50%;
+		transform: perspective(1500px) translateX(-100%) rotateY(-60deg);
+
+	}
